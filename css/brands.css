@@ -259,11 +259,10 @@ button:hover,
 
   .tooltip-minecraft {
     position: relative;
-    display: none;
+    display: inline-block;
   }
 
   .tooltip-minecraft .tooltip-minecrafttext {
-    display: none;
     visibility: hidden;
     width: 150px;
     height: 25px;
@@ -279,13 +278,12 @@ button:hover,
     position: absolute;
     z-index: 1;
     top: 7px;
-    left: 105%;
+    bottom: 105%;
     opacity: 0;
     transition: opacity 0.4s;
   }
 
   .tooltip-minecraft:hover .tooltip-minecrafttext {
-    display: none;
     visibility: visible;
     opacity: 1;
   }
