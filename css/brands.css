@@ -230,9 +230,10 @@ button:hover,
 
 .tooltip-minecraft .tooltip-minecrafttext {
   visibility: hidden;
-  width: 15px;
+  width: 60px;
   background-color: #000000;
   color: #ffffff;
+  font-size: 16px;
   text-align: center;
   border-radius: 6px;
   padding: 5px 30px;
