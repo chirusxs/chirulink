@@ -251,6 +251,7 @@ button:hover,
 
 .tooltip-minecraft:hover .tooltip-minecrafttext {
   visibility: visible;
+  opacity: 1;
 }
 
 /* GitHub */
