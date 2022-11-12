@@ -17,7 +17,7 @@ Using [Skeleton](http://getskeleton.com/) let us build something that loads quic
 
 No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/). Enjoy free and fast hosting with automatic deployments on every branch push with one click below. 👇️
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink&demo-title=LittleLink%20Demo&demo-description=Imported%20from%20GitHub.)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fchirusxs%2Fchirulink&project-name=chirulink&repository-name=chirulink&demo-title=ChiruLink%20Demo&demo-description=Importado%20desde%20GitHub.)
 
 ---
 
