@@ -213,24 +213,23 @@ button:hover,
 }
 
 /* Minecraft */
-@media (min-width: 768px) {
-
-  .button.button-minecraft-desktop {
-    color: #ffffff;
-    background-color: #5a9c28;
-  }
-  .button.button-minecraft-desktop:hover,
-  .button.button-minecraft-desktop:focus {
-    filter: brightness(90%);
-  }
+.button.button-minecraft {
+  color: #ffffff;
+  background-color: #5a9c28;
+}
+.button.button-minecraft:hover,
+.button.button-minecraft:focus {
+  filter: brightness(90%);
+}
 
 
-  .tooltip-minecraft-desktop {
-    position: relative;
-    display: inline-block;
-  }
+.tooltip-minecraft {
+  position: relative;
+  display: inline-block;
+}
 
-  .tooltip-minecraft-desktop .tooltip-minecrafttext-desktop {
+@media only screen and (max-width: 768px) {
+  .tooltip-minecraft .tooltip-minecrafttext {
     visibility: hidden;
     width: 150px;
     height: 25px;
@@ -242,33 +241,21 @@ button:hover,
     text-align: center;
     border-radius: 6px;
     padding: 5px 30px;
-  
     position: absolute;
     z-index: 1;
     top: 7px;
     left: 105%;
     opacity: 0;
     transition: opacity 0.4s;
-  }
-
-  .tooltip-minecraft-desktop:hover .tooltip-minecrafttext-desktop {
-    visibility: visible;
-    opacity: 1;
-  }
+}
 }
 
-@media (max-width: 768px) {
-  
-  .tooltip-minecraft-mobile {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .tooltip-minecraft-mobile .tooltip-minecrafttext-mobile {
+@media only screen and (min-width: 768px) {
+  .tooltip-minecraft .tooltip-minecrafttext {
     visibility: hidden;
     width: 150px;
     height: 25px;
-    background-color: #ff2222;
+    background-color: #000000;
     color: #ffffff;
     font-size: 14px;
     font-weight: 600;
@@ -276,22 +263,18 @@ button:hover,
     text-align: center;
     border-radius: 6px;
     padding: 5px 30px;
-  
     position: absolute;
     z-index: 1;
     top: 100%;
     left: 50%;
     opacity: 0;
     transition: opacity 0.4s;
-  }
-  
-  .tooltip-minecraft-mobile:hover .tooltip-minecrafttext-mobile {
-    visibility: visible;
-    opacity: 1;
-  }
 }
-
-
+}
+.tooltip-minecraft:hover .tooltip-minecrafttext {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* GitHub */
 .button.button-github {
