@@ -220,9 +220,6 @@ button:hover,
 .button.button-minecraft:hover,
 .button.button-minecraft:focus {
   filter: brightness(90%);
-}
-
-.tooltip.tooltip-minecraft {
   content: "";
   position: absolute;
   top: 100%;
