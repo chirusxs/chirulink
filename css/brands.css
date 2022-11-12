@@ -249,7 +249,7 @@ button:hover,
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .tooltip-minecraft .tooltip-minecrafttext {
     visibility: hidden;
     width: 150px;
