@@ -220,14 +220,32 @@ button:hover,
 .button.button-minecraft:hover,
 .button.button-minecraft:focus {
   filter: brightness(90%);
-  content: "";
+}
+
+.tooltip-minecraft {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip-minecraft .tooltip-minecrafttext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
   position: absolute;
+  z-index: 1;
   top: 100%;
   left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
+  margin-left: -60px;
+}
+
+.tooltip-minecraft:hover .tooltip-minecrafttext {
+  visibility: visible;
 }
 
 /* GitHub */
