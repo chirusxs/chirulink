@@ -222,6 +222,39 @@ button:hover,
   filter: brightness(90%);
 }
 
+@media (min-width: 769px) {
+
+  .tooltip-minecraft {
+    position: relative;
+    display: inline-block;
+  }
+
+  .tooltip-minecraft .tooltip-minecrafttext {
+    visibility: hidden;
+    width: 150px;
+    height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 30px;
+  
+    position: absolute;
+    z-index: 1;
+    top: 7px;
+    left: 105%;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+
+  .tooltip-minecraft:hover .tooltip-minecrafttext {
+    visibility: visible;
+    opacity: 1;
+  }
+}
 @media (max-width: 768px) {
 
   .tooltip-minecraft {
@@ -258,39 +291,6 @@ button:hover,
   }
 }
 
-@media (min-width: 769px) {
-
-  .tooltip-minecraft {
-    position: relative;
-    display: inline-block;
-  }
-
-  .tooltip-minecraft .tooltip-minecrafttext {
-    visibility: hidden;
-    width: 150px;
-    height: 25px;
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 30px;
-  
-    position: absolute;
-    z-index: 1;
-    top: 7px;
-    left: 105%;
-    opacity: 0;
-    transition: opacity 0.4s;
-  }
-
-  .tooltip-minecraft:hover .tooltip-minecrafttext {
-    visibility: visible;
-    opacity: 1;
-  }
-}
 
 /* GitHub */
 .button.button-github {
