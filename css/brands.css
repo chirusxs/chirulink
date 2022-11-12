@@ -225,23 +225,22 @@ button:hover,
 .tooltip-minecraft {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted #000000;
 }
 
 .tooltip-minecraft .tooltip-minecrafttext {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
+  width: 60px;
+  background-color: #000000;
+  color: #ff0000;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
   
   position: absolute;
   z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
+  top: -5px;
+  left: 105%;
 }
 
 .tooltip-minecraft:hover .tooltip-minecrafttext {
