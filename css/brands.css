@@ -232,7 +232,7 @@ button:hover,
   visibility: hidden;
   width: 150px;
   height: 25px;
-  background-color: #ff0000;
+  background-color: #000000;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
@@ -266,6 +266,7 @@ button:hover,
     z-index: 1;
     top: 100%;
     left: 50%;
+    margin-left: -60px;
     opacity: 0;
     transition: opacity 0.4s;
 }
