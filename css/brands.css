@@ -212,6 +212,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Minecraft */
+.button.button-minecraft {
+  color: #ffffff;
+  background-color: #88cc55;
+}
+.button.button-minecraft:hover,
+.button.button-minecraft:focus {
+  filter: brightness(90%);
+}
+
 /* GitHub */
 .button.button-github {
   color: #ffffff;
