@@ -277,8 +277,8 @@ button:hover,
   
     position: absolute;
     z-index: 1;
-    top: 7px;
-    bottom: 105%;
+    top: 100%;
+    left: 50%;
     opacity: 0;
     transition: opacity 0.4s;
   }
