@@ -222,7 +222,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
 
   .tooltip-minecraft {
     position: relative;
@@ -255,7 +255,7 @@ button:hover,
     opacity: 1;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 950px) {
 
   .tooltip-minecraft {
     position: relative;
