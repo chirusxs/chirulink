@@ -245,6 +245,8 @@ button:hover,
   z-index: 1;
   top: 7px;
   left: 105%;
+  opacity: 0;
+  transition: opacity 0.4s;
 }
 
 .tooltip-minecraft:hover .tooltip-minecrafttext {
