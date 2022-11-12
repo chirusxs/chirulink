@@ -213,59 +213,24 @@ button:hover,
 }
 
 /* Minecraft */
-.button.button-minecraft {
-  color: #ffffff;
-  background-color: #5a9c28;
-}
-.button.button-minecraft:hover,
-.button.button-minecraft:focus {
-  filter: brightness(90%);
-}
+@media (min-width: 768px) {
 
-@media (max-width: 768px) {
-  
-  .tooltip-minecraft {
-    position: relative;
-    display: none;
-  }
-  
-  .tooltip-minecraft .tooltip-minecrafttext {
-    display: none;
-    visibility: hidden;
-    width: 150px;
-    height: 25px;
-    background-color: #ff2222;
+  .button.button-minecraft-desktop {
     color: #ffffff;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 30px;
-  
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    opacity: 0;
-    transition: opacity 0.4s;
+    background-color: #5a9c28;
   }
-  
-  .tooltip-minecraft:hover .tooltip-minecrafttext {
-    display: none;
-    visibility: visible;
-    opacity: 1;
+  .button.button-minecraft-desktop:hover,
+  .button.button-minecraft-desktop:focus {
+    filter: brightness(90%);
   }
-}
 
-@media (min-width: 992px) {
 
-  .tooltip-minecraft {
+  .tooltip-minecraft-desktop {
     position: relative;
     display: inline-block;
   }
 
-  .tooltip-minecraft .tooltip-minecrafttext {
+  .tooltip-minecraft-desktop .tooltip-minecrafttext-desktop {
     visibility: hidden;
     width: 150px;
     height: 25px;
@@ -286,11 +251,46 @@ button:hover,
     transition: opacity 0.4s;
   }
 
-  .tooltip-minecraft:hover .tooltip-minecrafttext {
+  .tooltip-minecraft-desktop:hover .tooltip-minecrafttext-desktop {
     visibility: visible;
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  
+  .tooltip-minecraft-mobile {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-minecraft-mobile .tooltip-minecrafttext-mobile {
+    visibility: hidden;
+    width: 150px;
+    height: 25px;
+    background-color: #ff2222;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 30px;
+  
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+  
+  .tooltip-minecraft-mobile:hover .tooltip-minecrafttext-mobile {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
 
 
 /* GitHub */
