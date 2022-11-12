@@ -216,19 +216,15 @@ button:hover,
 .button.button-minecraft {
   color: #ffffff;
   background-color: #5a9c28;
-  outline: none;
 }
 .button.button-minecraft:hover,
 .button.button-minecraft:focus {
   filter: brightness(90%);
-  outline: none;
 }
 
 .tooltip-minecraft {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted #000000;
-  outline: none;
 }
 
 .tooltip-minecraft .tooltip-minecrafttext {
