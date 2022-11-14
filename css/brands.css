@@ -276,6 +276,70 @@ button:hover,
   opacity: 1;
 }
 
+/* TeamSpeak */
+.button.button-teamspeak {
+  color: #ffffff;
+  background-color: #1b2436;
+}
+.button.button-teamspeak:hover,
+.button.button-teamspeak:focus {
+  filter: brightness(90%);
+}
+
+
+.tooltip-teamspeak {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-teamspeak .tooltip-teamspeaktext {
+  visibility: hidden;
+  width: 150px;
+  height: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 30px;
+  position: absolute;
+  z-index: 1;
+  top: 7px;
+  left: 105%;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+
+@media (max-width: 900px) {
+  .tooltip-teamspeak .tooltip-teamspeaktext {
+    visibility: hidden;
+    width: 150px;
+    height: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 30px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+}
+.tooltip-teamspeak:hover .tooltip-teamspeaktext {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* GitHub */
 .button.button-github {
   color: #ffffff;
